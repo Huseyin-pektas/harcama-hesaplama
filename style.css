@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right , rgb(19, 230, 237) , rgb(70, 117, 193)); 
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Inconsolata';
+}
+
+.header {
+    color: rgb(21, 249, 249);
+    text-shadow:
+        0 1px 0 #518282,
+        0 2px 0 #729e9f,
+        0 3px 0 #36797e,
+        0 4px 0 #3e9393,
+        0 5px 0 #3f706f,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+    letter-spacing: 2px;
+}
+
+.container {
+    background-color: white;
+    min-width: 50%;
+    width: 60%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:
+    rgba(0, 0, 0, 0.4)
+    0px 2px 4px, rgba(0, 0, 0, 0.3)
+    0px 7px 13px -3px,
+     rgba(0, 0, 0, 0.2) 
+     0px -3px 0px inset;
+}
